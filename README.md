@@ -1,2 +1,1 @@
-# PB
-Personal Branding
+# Personal Branding Code Repository
