@@ -18,7 +18,7 @@ int main() {
         cout << "Prodi: ";
         getline(cin >> ws, prodi); // input prodi
 
-        while (prodi != "Teknik Elektro" && prodi != "Teknologi Informasi" && prodi != "Teknik Biomedis") {
+        while (prodi != "Teknik Elektro" || prodi != "Teknologi Informasi" || prodi != "Teknik Biomedis") {
             cout << "Invalid! Masukkan Prodi dalam DTETI: ";
             getline(cin >> ws, prodi);} // jika input tidak sesuai, ulangi
 
